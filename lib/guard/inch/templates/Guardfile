@@ -1,0 +1,3 @@
+guard :inch do
+  watch(%r{^lib/(.+)\.rb})
+end

@@ -1,6 +1,6 @@
 # Guard::Inch
 
-TODO: Write a gem description
+A Guard gem plugin that integrates the Inch documentation measurement tool. 
 
 ## Installation
 
@@ -18,11 +18,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The plugin can be configured using `guard init inch`.
+
+Afterward, just run guard
+
+    guard
+
+or
+
+    bundle exec guard
+
+and the tool will rerun `inch` on the files you are working with as you change them.
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/guard-inch/fork )
+1. Fork it ( http://github.com/chills42/guard-inch/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

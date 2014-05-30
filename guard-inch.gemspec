@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["chills@gmail.com"]
   spec.summary       = %q{A guard plugin to run the inch documentation measurement tool.}
   spec.description   = %q{This gem is a Guard plugin, which integrates the inch documentation measurement tool.}
-  spec.homepage      = ""
+  spec.homepage      = 'https://github.com/chills42/guard-inch'
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

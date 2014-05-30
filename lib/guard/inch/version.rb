@@ -1,5 +1,5 @@
 module Guard
-  module Inch
+  module InchVersion
     VERSION = "0.0.1"
   end
 end

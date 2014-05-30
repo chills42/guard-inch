@@ -5,7 +5,7 @@ require 'guard/inch/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "guard-inch"
-  spec.version       = Guard::Inch::VERSION
+  spec.version       = Guard::InchVersion::VERSION
   spec.authors       = ["Craig Hills"]
   spec.email         = ["chills@gmail.com"]
   spec.summary       = %q{A guard plugin to run the inch documentation measurement tool.}

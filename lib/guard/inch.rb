@@ -9,7 +9,7 @@ module Guard
     end
 
     def run_on_changes(paths)
-      `inch #{paths}`
+      puts `inch #{paths.join(' ')}`
     end
   end
 end

@@ -1,5 +1,7 @@
 # Guard::Inch
 
+![guard-inch status on Inch-CI](https://inch-ci.org/github/Chills42/guard-inch.svg?branch=master)
+
 A Guard gem plugin that integrates the Inch documentation measurement tool. 
 
 ## Installation

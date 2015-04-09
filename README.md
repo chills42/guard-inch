@@ -1,7 +1,7 @@
 # Guard::Inch
 
 [![Inch CI](https://inch-ci.org/github/Chills42/guard-inch.svg?branch=master)](http://inch-ci.org/github/Chills42/guard-inch)
-[![Code Climate](https://codeclimate.com/github/Chills42/guard-inch.svg)](https://codeclimate.com/github/Chills42/guard-inch)
+[![Code Climate](https://codeclimate.com/github/chills42/guard-inch/badges/gpa.svg)](https://codeclimate.com/github/chills42/guard-inch)
 
 A Guard gem plugin that integrates the Inch documentation measurement tool. 
 

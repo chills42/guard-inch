@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake", "~> 1"
+  spec.add_development_dependency "rake", "~> 10.4", ">= 10.4.2"
 
-  spec.add_runtime_dependency "guard", "~> 0"
-  spec.add_runtime_dependency "inch", "~> 0"
+  spec.add_runtime_dependency "guard", "~> 2.13"
+  spec.add_runtime_dependency "inch", "~> 0.6", ">= 0.6.4"
 end

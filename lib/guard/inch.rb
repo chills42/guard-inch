@@ -19,6 +19,7 @@ module Guard
     def start
       message = 'Guard::Inch is running'
       message << ' in pedantic mode' if options[:pedantic]
+      message << ' and inspecting private fields' if options[:private]
       ::Guard::UI.info message
       run_all if options[:all_on_start]
     end
@@ -43,6 +44,7 @@ module Guard
     def run_on_changes(paths)
       flags = ''
       flags << '--pedantic ' if options[:pedantic]
+      flags << '--private ' if options[:private]
       run_inch "#{flags} #{paths.join(' ')}"
     end
 

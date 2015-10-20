@@ -37,13 +37,14 @@ and the tool will rerun `inch` on the files you are working with as you change t
 
 Other options can be set in the Guardfile
 
-    guard :inch, pedantic: true, all_on_start: true, all_type: :stats do
+    guard :inch, pedantic: true, private: true, all_on_start: true, all_type: :stats do
       watch(/.+\.rb/)
     end
 
 The above example shows use of several different options:
 
  - pedantic: determines whether or not to use the pedantic flag for changed file runs
+ - private: as with `pedantic`, but for the private command-line flag
  - all_on_start: determines whether or not to do a `run all` on startup
  - all_type: specifies which run type should be used for `run all` with options mapping to those provided by inch
 
